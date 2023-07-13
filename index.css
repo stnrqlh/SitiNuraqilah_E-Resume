@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+  }
+  .header {
+      text-align: center;
+      padding: 50px;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 700%;
+      font-weight: bold;
+  }
+  
+  body{
+      background-image: url("picture/sky2.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+  
+  nav{
+    display: block;
+  }
+  
+  ul {
+      list-style-type: none;
+      margin: 200;
+      padding: 150;
+      overflow: hidden;
+    }
+    
+    li {
+      float: right;
+    }
+  
+    li a {
+      text-align: center;
+      text-decoration: none;
+      font-family: 'Courier New', Courier, monospace;
+      padding: 65px; 
+      width: 200px;
+      height: 200px;
+    }
+  
+    li a:hover {
+      border-style: hidden;
+      border-radius: 30px;
+      color: grey;
+    }
+  
+    li a:hover:not(.active) {
+      color: #333;
+      border-color: #333;
+      border: 3px solid #333;
+    }
+  
+    .clearfix {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  
+    div.nameid {
+      font-size: x-large;
+      font-family: 'Courier New', Courier, monospace;
+    }
